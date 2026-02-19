@@ -1,0 +1,18 @@
+[project]
+name = "confluence-mcp"
+version = "0.1.0"
+description = "MCP Server for Confluence integration"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp[cli]>=1.2.0",
+    "atlassian-python-api>=3.41.0",
+    "httpx>=0.24.0",
+    "pydantic>=2.0.0",
+    "python-dotenv>=1.0.0"
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[[tool.uv.sources]]
