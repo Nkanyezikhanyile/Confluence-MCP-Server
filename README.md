@@ -33,13 +33,13 @@ The server exposes the following tools:
 1. Clone or create the project directory
 2. Install dependencies using uv:
 
-\\\ash
+\\\bash
 uv sync
 \\\
 
 Or with pip:
 
-\\\ash
+\\\bash
 pip install -r requirements.txt
 \\\
 
@@ -47,7 +47,7 @@ pip install -r requirements.txt
 
 1. Copy the example configuration:
 
-\\\ash
+\\\bash
 cp .env.example .env
 \\\
 
@@ -75,19 +75,19 @@ CONFLUENCE_PASSWORD=your-password
 
 ### With uv:
 
-\\\ash
+\\\bash
 uv run confluence_server.py
 \\\
 
 ### With Python directly:
 
-\\\ash
+\\\bash
 python confluence_server.py
 \\\
 
 ### With MCP Inspector (for testing):
 
-\\\ash
+\\\bash
 # Terminal 1: Start the server
 uv run confluence_server.py
 
@@ -103,7 +103,7 @@ Then connect to http://localhost:8000/mcp in the inspector.
 
 1. Edit your Claude Desktop config:
 
-\\\ash
+\\\bash
 code ~/Library/Application Support/Claude/claude_desktop_config.json
 \\\
 
